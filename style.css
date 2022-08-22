@@ -1,0 +1,618 @@
+body {
+    text-align:center;
+    background-image: url('foto/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 ;
+ 
+    /* End Body */
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.623);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+    /* Nappi Top. */
+main {       
+    max-width: 100%;
+}
+    /* h style */
+h1 {
+    font-family: 'Bungee Inline';   
+}
+/* h style */
+h2 {
+    font-family: 'Pacifico';
+    font-size: 30px;
+    
+}
+/* h style */
+h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 20px;
+  color: cornflowerblue;
+}
+/* h style */
+h5{
+  padding-top:20px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: teal;
+  font-variant: small-caps;
+}
+/* p style */
+p{  
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.text_info{
+  font-size: 20px;
+  color: black;  
+  font-weight: normal;
+  font-variant: normal;
+}
+.teh{ 
+  padding: 0 3%;
+}
+header {
+  padding: 1em;
+  color: rgb(49, 46, 46);
+  font-size: 100%;
+  letter-spacing: 1em;
+}
+
+nav{
+  padding: 0.3% 6%;
+  top: 0;
+  position: sticky;
+  text-align: right;
+  color: gainsboro;   
+  background-color: #5757575d;
+  z-index: 1000;
+}
+.other{
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0; 
+  float: left;
+  text-align: left;
+}
+
+
+footer {    
+  padding: 0.5% 0;
+  text-align: center;
+  background-color: #575757d5;
+}
+
+/* kuvan  asetukset */
+img {
+  width: 150px;
+  height: 200px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;  
+}
+
+/* id:in kuvan  asetukset */
+.kuvat{
+  height: 120px;
+  width: auto;
+  overflow:hidden;
+  float: none;
+}
+
+a{
+  text-decoration: none;
+  color:gainsboro ;
+}
+
+.t1 { 
+  padding: 2% 20%; 
+  overflow: hidden;
+  background: linear-gradient(to top right, rgba(220, 220, 220, 0.788) 40%, #98b0e0a1 90%);  /* värigradientti */
+}  
+
+.t4 {
+  padding: 0 10%;
+  background-color: rgba(220, 220, 220, 0.788);  /* background-color and  transparency */
+  overflow:hidden; 
+  background: linear-gradient(to top right, rgba(220, 220, 220, 0.788) 40%, #98b0e0a1 90%);  /* värigradientti */
+  
+}
+section.t2 { 
+  overflow:hidden;  
+  margin:3% 3%; 
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;  
+  width: 250px;
+  height: 385px;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  /* shadow */
+  background-color:rgba(220, 220, 220, 0.788);    /* background-color and  transparency */
+}
+ 
+  .har{
+  background: linear-gradient(to top right, rgba(220, 220, 220, 0.788) 40%, #98b0e0a1 90%); /* värigradientti */
+  overflow: hidden;    
+}
+
+.ict{
+  background-color: #4F5151;
+  margin-top: 0px;
+  height: auto;
+  padding: 15px;
+  font-variant: small-caps;
+}
+
+.tal{ 
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0 5%;
+  padding-bottom: 6%;
+}
+/* iso sectio Portf style */
+.Portf{
+  background: linear-gradient(to top right, rgba(220, 220, 220, 0.788) 40%, #98b0e0a1 90%)    /* värigradientti */
+}
+
+/* portf style */
+section.portf {
+  border: 1px solid;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 260px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);      /* shadow */
+  background-color:rgba(220, 220, 220, 0.788);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;   
+}
+
+.po{
+  text-align: left;
+  padding:0 15%;  
+}
+
+ul {
+  overflow: hidden;
+  list-style-type: none;
+  margin-top: 0;
+  margin: 0;
+  padding: 0; 
+}
+
+li {
+  display: inline-block;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.35em;
+  text-decoration: none;
+}
+
+  
+a:hover {
+  color: aquamarine;
+  background-color: transparent;
+  text-decoration: underline;
+}
+  
+a:active {
+  color: rgba(255, 255, 255, 0.774);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.link_info{
+  color:rgb(40, 42, 185);
+  text-align: left;
+} 
+/* linkkin "push" asetusket */
+.push {
+  list-style: none;
+  font-family: "Lucida Sans";
+  text-align: left;
+  margin-left: 20%;
+}
+
+.push li {
+  position: relative;
+  padding: 20px 0 20px 40px;
+  color: teal;
+  font-variant: small-caps;
+  font-weight: bold;    
+}
+
+.push li:before {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4F5151;
+  content: "";
+  left: 0;
+  transition: .3s ease-in-out;
+  top: 27px;
+  }
+
+  .push li:after {
+    position: absolute;
+    border-left: 1px dotted #4F5151;
+    width: 1px;
+    bottom: -12px;
+    content: "";
+    left: 3px;
+    top: 48px;
+  }
+ /* nav suurin ja pienin arvo */
+@media screen and (min-width: 600px) {
+    nav {
+        font-size: 15px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        font-size: 11px;
+        padding: 0;
+      }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+ /* img suurin ja pienin arvo */
+@media screen and (min-width: 1400px) {
+  img {
+      float: left;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  img {
+      float: none;
+  }
+}
+ /* har suurin ja pienin arvo */
+@media screen and (min-width: 600px) {
+  .har {
+    padding: 0 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .har {    
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+tr:nth-child(even) {
+  background-color: rgba(220, 220, 220, 0.788);
+}
+ /* table style */
+table,.tab {
+  font-family: arial, sans-serif;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); /* shadow */
+  border-radius: 10px; 
+  font-family: 'Archivo Narrow', sans-serif;
+  margin-right: auto;
+  margin-left: auto;  
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: gainsboro;;
+  color: black;
+  border: 16px solid gainsboro;;
+  border-radius: 20px;
+  }
+/* h style */
+th {
+  font-size: 18px;
+  color: cornflowerblue;
+  }
+/* td style */
+td {
+  background:linear-gradient(to top right, rgba(95, 144, 177, 0.788) 40%, #4f638aa1 90%); /* värigradientti */
+  }
+/* table"tab" style */
+.tab{
+   height: 110px;
+   width: 250px;  
+  }
+     /* th,td suurin ja pienin arvo */
+@media screen and (min-width: 600px) {
+    th,td {
+      padding: 10px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    th,td {
+      padding: 
+      0.5px;
+    } 
+  }
+body.lb-disable-scrolling {
+    overflow: hidden;
+  }
+   /* valokuvagalleriatyyli */
+.lightboxOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    display: none;
+  }
+  
+.lightbox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    text-align: center;
+    line-height: 0;
+    font-weight: normal;
+    outline: none;
+  }
+  
+.lightbox .lb-image {
+    display: block;
+    height: auto;
+    max-width: inherit;
+    max-height: none;
+    border-radius: 3px;
+  
+    /* Image border */
+    border: 4px solid white;
+  }
+  
+.lightbox a img {
+    border: none;
+  }
+  
+.lb-outerContainer {
+    position: relative;
+    *zoom: 1;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;  
+    /* Background color behind image.
+       This is visible during transitions. */
+    background-color: white;
+  }
+  
+.lb-outerContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.lb-loader {
+    position: absolute;
+    top: 43%;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+  }
+ /* valokuvagalleriatyyli
+   loading */ 
+.lb-cancel {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background: url(foto/loading.gif) no-repeat;
+  }
+  
+.lb-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+  
+.lb-container > .nav {
+    left: 0;
+  }
+  
+.lb-nav a {
+    outline: none;
+    background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+  }
+  
+.lb-prev, .lb-next {
+    height: 100%;
+    cursor: pointer;
+    display: block;
+  }
+/* valokuvagalleriatyyli
+   prev nappi */
+.lb-nav a.lb-prev {
+    width: 34%;
+    left: 0;
+    float: left;
+    background: url(foto/prev.png) left 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+  }
+  
+.lb-nav a.lb-prev:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+   /* valokuvagalleriatyyli
+   Next nappi */
+.lb-nav a.lb-next {
+    width: 64%;
+    right: 0;
+    float: right;
+    background: url(foto/next.png) right 48% no-repeat;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+  }
+  
+.lb-nav a.lb-next:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+  
+.lb-dataContainer {
+    margin: 0 auto;
+    padding-top: 5px;
+    *zoom: 1;
+    width: 100%;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+.lb-dataContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.lb-data {
+    padding: 0 4px;
+    color: #ccc;
+  }
+  
+.lb-data .lb-details {
+    width: 85%;
+    float: left;
+    text-align: left;
+    line-height: 1.1em;
+  }
+  
+.lb-data .lb-caption {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1em;
+  }
+  
+.lb-data .lb-caption a {
+    color: #4ae;
+  }
+  
+.lb-data .lb-number {
+    display: block;
+    clear: left;
+    padding-bottom: 1em;
+    font-size: 12px;
+    color: #999999;
+  }
+     /* valokuvagalleriatyyli
+   close nappi */
+.lb-data .lb-close {
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: url(foto/close.png) top right no-repeat;
+    text-align: right;
+    outline: none;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+  }
+  
+.lb-data .lb-close:hover {
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+   /* valokuvagalleriatyyli */
